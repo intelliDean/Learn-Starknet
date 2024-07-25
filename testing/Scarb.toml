@@ -1,0 +1,22 @@
+[package]
+name = "testing"
+version = "0.1.0"
+edition = "2023_11"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
+
+[dependencies]
+# foo = { path = "vendor/foo" }
+
+# Using External Packages in Cairo with Scarb
+# importing the main branch of alexandria_math crate from alexandria package
+# alexandria_math = { git = "https://github.com/keep-starknet-strange/alexandria.git" }
+
+
+# Note that it is also possible to add dependencies with the scarb add command,
+# which will automatically edit the Scarb.toml file for you. For development
+# dependencies, just use the scarb add --dev command.
+
+# To remove a dependency, simply remove the corresponding line from
+# your Scarb.toml file, or use the scarb rm command.
+
