@@ -21,6 +21,5 @@ pub mod animals {
 
     pub fn sale_animal() {
         println!("Animal... Sold!");
-    }
-    
+    }   
 }
